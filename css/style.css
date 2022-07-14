@@ -1,3 +1,34 @@
 h1 {
   font-size: 3vw;
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
+.school {
+  list-style: inside;
+  list-style-position: outside;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.details {
+  list-style-type: square;
+  margin: 5px;
+  padding-left: 40px;
+}
+.work {
+  list-style: inside;
+  list-style-position: outside;
+  padding-left: 40px;
+}
+#topTen {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+footer {
+  margin-top: 20px;
+  padding-left: 40px;
+}

@@ -1,10 +1,9 @@
 'use strict';
 
-
-
 let siteVisitor = prompt('What is your name?');
 let score = 1;
 alert(`Welcome to my site ${siteVisitor}! Guess these facts about me.`);
+
 
 function firstOne() {
   let questionOne = prompt('Yes or No...Do I have Children?').toLowerCase();
@@ -145,6 +144,7 @@ function firstSeven() {
   alert('Congrats you got ' + score + ' answers correct');
 }
 firstSeven();
+
 
 
 
